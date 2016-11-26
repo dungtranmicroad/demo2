@@ -1,0 +1,32 @@
+<section class='field'>
+  <label>
+    {{input type="checkbox" checked=category.custom_fields.list_thumbnails}}
+    {{i18n 'category.list_thumbnails'}}
+  </label>
+</section>
+
+<section class='field'>
+  <label>
+    {{input type="checkbox" checked=category.custom_fields.list_excerpts}}
+    {{i18n 'category.list_excerpts'}}
+  </label>
+</section>
+
+<section class='field'>
+  <label>
+    {{input type="checkbox" checked=category.custom_fields.list_actions}}
+    {{i18n 'category.list_actions'}}
+  </label>
+</section>
+
+<section class='field'>
+  <label>
+    {{input type="checkbox" checked=category.custom_fields.list_category_badge_move}}
+    {{i18n 'category.list_category_badge_move'}}
+  </label>
+</section>
+
+<section class='field'>
+  <label>{{i18n 'category.list_default_thumbnail'}}</label>
+  {{text-field value=category.custom_fields.list_default_thumbnail placeholderKey="category.list_default_thumbnail_placeholder"}}
+</section>
